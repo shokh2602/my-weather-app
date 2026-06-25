@@ -1,0 +1,94 @@
+.weather-container {
+  width: 300px;
+  padding: 20px;
+  margin: 50px auto;
+  background-color: #0057ff;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+
+.search-bar {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.search-input {
+  width: 70%;
+  padding: 8px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.search-btn {
+  padding: 8px 12px;
+  border-radius: 12px;
+  border: none;
+  background: #fff;
+  cursor: pointer;
+}
+
+.sun-icon {
+  width: 80px;   
+  height: 80px;
+  margin: 20px auto;
+}
+
+.icon {
+  width: 35px;    /* Humidity + Wind icon kichraydi */
+  height: 35px;
+}
+
+.temperature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  margin-top: 10px;
+}
+.temp-value {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.temp-unit {
+  font-size: 22px;
+}
+
+.location {
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.weather-info {
+  margin-top: 20px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 10px 0;
+}
+
+.info-label {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.info-value {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.text-group {
+  display: flex;
+  flex-direction: column;
+}
